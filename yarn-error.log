@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mohid\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gatsby-plugin-dark-mode
+
+PATH: 
+  C:\Users\mohid\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mohid\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\mohid\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\mohid\AppData\Local\Programs\Python\Python311;C:\Users\mohid\.console-ninja\.bin;C:\Users\mohid\AppData\Local\Microsoft\WindowsApps;C:\Users\mohid\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mohid\AppData\Local\GitHubDesktop\bin;C:\Users\mohid\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\Mohid\Practice\Active\notes-taking-application\node_modules\@parcel\fs-search\fs-search.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "notes-taking-application",
+    "version": "1.0.0",
+    "private": true,
+    "description": "notes-taking-application",
+    "author": "Mian Mohid Naeem",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "@headlessui/react": "^1.7.17",
+      "@supabase/supabase-js": "^2.33.2",
+      "autoprefixer": "^10.4.15",
+      "date-fns": "^2.30.0",
+      "gatsby": "^5.12.4",
+      "gatsby-plugin-image": "^3.12.0",
+      "gatsby-plugin-postcss": "^6.12.0",
+      "gatsby-plugin-sharp": "^5.12.0",
+      "gatsby-source-filesystem": "^5.12.0",
+      "gatsby-transformer-sharp": "^5.12.0",
+      "interweave": "^13.1.0",
+      "postcss": "^8.4.29",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-hook-form": "^7.46.1",
+      "react-icons": "^4.11.0",
+      "react-quill": "^2.0.0",
+      "react-toastify": "^9.1.3",
+      "string-strip-html": "^13.4.3",
+      "tailwindcss": "^3.3.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+.quill * {
+    background: transparent !important;
+}
+.no-scroll-bar ::-webkit-scrollbar {
+  display: none;
+}
+
+.ql-toolbar,
+.ql-container.ql-snow {
+  border: none !important;
+}
+
+.dark .ql-snow .ql-picker {
+  color: white !important;
+  border: none
+}
+
+.dark button .ql-stroke,
+.dark .ql-picker-label .ql-stroke {
+  fill: none;
+  stroke: white !important;
+}
+
+.dark .ql-active .ql-stroke {
+  fill: none;
+  stroke: white !important;
+}
+
+.dark button .ql-fill,
+.dark .ql-picker-label .ql-fill {
+  fill: white !important;
+  stroke: none;
+}
+
+.dark .ql-active .ql-fill {
+  fill: white !important;
+  stroke: none;
+}
+
+.dark .ql-snow.ql-toolbar .ql-picker-label:hover {
+  color: rgb(229 231 235) !important;
+}
+
+.dark button:hover .ql-stroke,
+.dark .ql-picker-label:hover .ql-stroke {
+  fill: none;
+  stroke: rgb(229 231 235) !important;
+}
+
+.dark .ql-active .ql-stroke {
+  fill: none;
+  stroke: rgb(229 231 235) !important;
+}
+
+.dark button:hover .ql-fill,
+.dark .ql-picker-label:hover .ql-fill {
+  fill: rgb(229 231 235) !important;
+  stroke: none;
+}
+
+.dark .ql-active .ql-fill {
+  fill: rgb(229 231 235) !important;
+  stroke: none;
+}
+
+.dark .ql-picker-options{
+    border: 1px solid rgb(170, 170, 170) !important;
+    background-color: rgb(75 85 99) !important;
+}
+
+.dark .ql-picker-item:hover::before{
+    color: rgb(229 231 235);
+}
+
+.ql-picker-label{
+    border: none !important;
+}
+
+.dark .note h1,
+.dark .note h2,
+.dark .note strong {
+  color: rgb(209 213 219) !important;
+}
+
+.dark .note p,
+.dark .note li {
+  color: rgb(229 231 235) !important;
+}
+
+.note ol{
+  padding-left: 1rem;
+  list-style: decimal;
+}
+
+.note ul{
+  padding-left: 1rem;
+  list-style: disc;
+}
