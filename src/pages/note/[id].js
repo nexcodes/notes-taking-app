@@ -11,6 +11,8 @@ import { Interweave } from "interweave";
 
 const Note = ({ params }) => {
 
+  if(!params.id) return;
+  
   const [note, setNote] = useState([]);
   const [changeHappen, setChangeHappen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
